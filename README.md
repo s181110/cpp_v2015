@@ -2,6 +2,7 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **Roulette-oppgaven** ligger nå under [./f1/roulette.md](./f1/roulette.md)
 * **studssh** er et alternativ for å komme i gang. Du trenger da:
    * En terminal med ssh. Innebygget i mac og Linux, for Windows bruk [Putty](http://www.putty.org/)
    * Logg inn med `sxxxxxx@studssh.cs.hioa.no`
