@@ -2,6 +2,11 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **Github-link** kan nå leveres inn på fronter.
+   * Du må først opprette et *privat* github-repository for kurset- med din hioa-adresse
+   * Kun du og `alfred-bratterud` skal ha tilgang (du må gi tilgang under "settings")
+   * Levér link til ditt repo på fronter, under Innlevering. 
+   * Velg "Create"->"Link" og fyll ut din URL både under "url" og "title" (da blir det lettere for meg å kopiere)
 * **Roulette-oppgaven** ligger nå under [./f1/roulette.md](./f1/roulette.md)
 * **studssh** er et alternativ for å komme i gang. Du trenger da:
    * En terminal med ssh. Innebygget i mac og Linux, for Windows bruk [Putty](http://www.putty.org/)
