@@ -2,6 +2,9 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **studssh** er et alternativ for å komme i gang. Du trenger da:
+   * En terminal med ssh. Innebygget i mac og Linux, for Windows bruk [Putty](http://www.putty.org/)
+   * Logg inn med `sxxxxxx@studssh.cs.hioa.no`
 * **Virtuell maskin**, med ferdig oppsett: [last ned her](https://www.dropbox.com/s/ihgkpu92vgtus3z/ubuntu_cpp2015.ova?dl=0)
    * Inneholder Linux - "Lubuntu", en lettvekts "Ubuntu" (raskere/enklere GUI)
    * Har git, gcc, emacs og Sublime text installert
