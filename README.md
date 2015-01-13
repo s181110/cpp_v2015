@@ -2,6 +2,11 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **Kodeeksempler + artig ting**: Kodeeksempler fra dagens forelesning er lagt ut her: [./f2/vector_pointers_arrays.cpp](./f2/vector_pointers_arrays.cpp). Den artige tingen var at jeg fullførte det jeg var i gang med, som var å finne adressen til C++-strengen, og sammenlikne den med C-strengen vi 'oppdaget' at lå ved siden av 's'. En minikonkurranse for de som er *spesielt interesserte*: 
+  * Sjekk koden (nå tilpasset linux-vm'en) og legg merke til adressen til C++-strengen (modern.c_str()). Hvorfor er ikke denne i nærheten av stringen vi fant?
+  * Prøv å endre innholdet til stringen vi "oppdaget". Endrer det C++-strengen? Går det an i det hele tatt? (det er jo ingen ting const i vår definisjon). 
+  * Åpne den kompilerte binærfila i emacs (ja!). Her får du et hint om hva som skjer. Du kan finne ut enda mer med `readelf`evt. `objdump`. 
+  * **OBS:** Dette er laaangt utenfor pensum og er kun for spesielt interesserte og har ingen ting å si for kurset, men allikevel; 5 twist + heder og ære til den som kan forklare nøyaktig hva som foregår, på e-post til meg, før neste lab. Jeg vet det ;-)
 * **Oppgaver** om dagens tema +++ er nå lagt ut under [./oppgaver.md](./oppgaver.md). Jobb gjerne videre med Roulette-oppgaven i C++ også; vi kommer til å komme tilbake til denne, og jeg har fått inn implementasjoner i Java, PHP og D, i tillegg til Python - takk for bidragene! 
 * **Github-link** kan nå leveres inn på fronter.
    * Du må først opprette et *privat* github-repository for dette kurset
