@@ -2,6 +2,7 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **Oppgaver** om dagens tema +++ er nå lagt ut under [./oppgaver.md](./oppgaver.md). Jobb gjerne videre med Roulette-oppgaven i C++ også; vi kommer til å komme tilbake til denne, og jeg har fått inn implementasjoner i Java, PHP og D, i tillegg til Python - takk for bidragene! 
 * **Github-link** kan nå leveres inn på fronter.
    * Du må først opprette et *privat* github-repository for dette kurset
       * For å få private repositories gratis må du registrere deg som student på [github.com/edu](http://github.com/edu), med din hioa-adresse. Denne skal være på "whitelist" og du vil da automatisk bli godkjent. Det kan ta litt tid, men ikke mange dager.
