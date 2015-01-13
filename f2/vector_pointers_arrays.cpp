@@ -64,7 +64,7 @@ int main(){
    cout << "* Directly: " << s << endl;
    
    //Hva med:
-   cout << "* Something wreckless: " << &s[16] << endl;
+   cout << "* Something wreckless: " << &(s[17]) << endl;
    
    // På min mac blir det foregående - &s[16] - faktisk C++-strengen. Hvorfor?
    
@@ -75,11 +75,11 @@ int main(){
    int* modern_addr = (int*)modern.c_str();
    
    cout << "Adressen til s: " << s_addr  << endl;
-   cout << "Adressen til modern (innholdet) " << modern_addr << endl;
+   cout << "Adressen til modern sitt innholdet: " << modern_addr << endl;
    
    // På min mac er ikke disse adressene i det hele tatt i nærheten av hverandre. Hva skjer?
    // Sjekk denne:
-   cout << "Adressen til strengen vi \"oppdaget\":" << (int*)(s+16) << endl;
+   cout << "Adressen til strengen vi \"oppdaget\":" << (int*)(s+17) << endl;
 
    // Hvorfor er denne adressen så forskjellig fra adressen til modern.c_str() ?
    // Kan du endre den strengen vi oppdaget? Hvorfor / Hvorfor ikke? 
