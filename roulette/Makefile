@@ -1,8 +1,18 @@
+D_COMPILE_CMD=gdc -frelease -finline-functions -fno-bounds-check -O3 -Werror -Wall
 
 all: d java c++
 
-d:
-	dmd -O ./D/roulette.d -of./D/roulette
+D/d_pythonport: D/d_pythonport.d
+	$(D_COMPILE_CMD) -o $@ $^
+
+D/d_no_aa: D/d_no_aa.d
+	$(D_COMPILE_CMD) -o $@ $^
+
+D/d_no_aa_xorshift: D/d_no_aa_xorshift.d
+	$(D_COMPILE_CMD) -o $@ $^
+	cp $@ ./D/roulette
+
+d: D/d_pythonport D/d_no_aa D/d_no_aa_xorshift
 
 java:
 	javac ./Java/Roulette.java
