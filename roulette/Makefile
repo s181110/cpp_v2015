@@ -15,7 +15,7 @@ D/d_no_aa_xorshift: D/d_no_aa_xorshift.d
 d: D/d_pythonport D/d_no_aa D/d_no_aa_xorshift
 
 java:
-	javac ./Java/Roulette.java
+	javac -O ./Java/Roulette.java
 
 c++:
 	g++ -Ofast -std=c++11 ./C++/roulette.cpp -o ./C++/roulette
