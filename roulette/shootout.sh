@@ -19,7 +19,7 @@ time python ./Python/roulette.py $N
 echo
 echo "==== Java ======"
 cd Java
-time java Roulette $N
+time java Roulette $N -a
 cd ..
 
 echo 
