@@ -2,6 +2,7 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* Løsningsforslag til forrige ukes oppgaver er på vei!
 * **Kodeeksempler + artig ting**: Kodeeksempler fra dagens forelesning er lagt ut her: [./f2/vector_pointers_arrays.cpp](./f2/vector_pointers_arrays.cpp). Den artige tingen var at jeg fullførte det jeg var i gang med, som var å finne adressen til C++-strengen, og sammenlikne den med C-strengen vi 'oppdaget' at lå ved siden av 's'. En minikonkurranse for de som er *spesielt interesserte*: 
   * Sjekk koden (nå tilpasset linux-vm'en) og legg merke til adressen til C++-strengen (modern.c_str()). Hvorfor er ikke denne i nærheten av stringen vi fant?
   * Prøv å endre innholdet til stringen vi "oppdaget". Endrer det C++-strengen? Går det an i det hele tatt? (det er jo ingen ting const i vår definisjon). 
