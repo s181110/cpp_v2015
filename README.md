@@ -1,4 +1,4 @@
-# Effektiv kode med C og C++ 
+# Effektiv kode med C og C++
 *DAVE3605, Vår 2015*
 
 ## NYHETER
