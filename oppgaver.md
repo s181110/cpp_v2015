@@ -1,4 +1,4 @@
-## Uke 5: Minne
+## Uke 4 og 5: Minne
 
   1. **Automatisk minne og stack**
      * Undersøk hvor mye plass din maskin setter av til stack.

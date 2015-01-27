@@ -2,6 +2,7 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* Andreas har laget løsningsforslag til I/O-delen av forrige ukes oppgaver. Flere er på vei. Bra jobba Åkesson!
 * **Kodeeksempler + artig ting**: Kodeeksempler fra dagens forelesning er lagt ut her: [./f2/vector_pointers_arrays.cpp](./f2/vector_pointers_arrays.cpp). Den artige tingen var at jeg fullførte det jeg var i gang med, som var å finne adressen til C++-strengen, og sammenlikne den med C-strengen vi 'oppdaget' at lå ved siden av 's'. En minikonkurranse for de som er *spesielt interesserte*: 
   * Sjekk koden (nå tilpasset linux-vm'en) og legg merke til adressen til C++-strengen (modern.c_str()). Hvorfor er ikke denne i nærheten av stringen vi fant?
   * Prøv å endre innholdet til stringen vi "oppdaget". Endrer det C++-strengen? Går det an i det hele tatt? (det er jo ingen ting const i vår definisjon). 
@@ -20,6 +21,7 @@
    * Logg inn med `sxxxxxx@studssh.cs.hioa.no`
 * **Virtuell maskin**, med ferdig oppsett: [last ned her](https://www.dropbox.com/s/ihgkpu92vgtus3z/ubuntu_cpp2015.ova?dl=0)
    * Inneholder Linux - "Lubuntu", en lettvekts "Ubuntu" (raskere/enklere GUI)
+   * Brukernavn: `developer` Passord: `hioa`
    * Har git, gcc, emacs og Sublime text installert
    * Maskinen kjøres med VirtualBox, som må [lastes ned og installeres](https://www.virtualbox.org/wiki/Downloads). Følg deretter [denne guiden](http://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html) for å importere VM'en over.
    * **Problemer?** 
