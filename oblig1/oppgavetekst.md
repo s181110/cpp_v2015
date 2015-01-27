@@ -1,9 +1,9 @@
 Oblig 1, C++ Vår 2015
 ----------------------------------------------------
 
-* Oppgaven skal løses invdividuelt. Deling av løsning med andre blir betraktet som juks.
+* Oppgaven skal løses *invdividuelt*. Deling av løsning med andre blir betraktet som juks.
 * Oppgaven må være godkjent for at man skal kunne bestå kurset.
-* Innlevering Via github (evt. gitlab) innen 2 uker. 
+* Innlevering Via github (evt. gitlab) innen 2 uker. Frist: **10. Feb. 2015, kl.23:59**.
 
 #Oppgave 1: Oppvarming
 I `oppvarming.cpp` finner du tre ulike "beskjeder" som er gjemt i variabler med numeriske typer. Variablene heter hhv. `msg1`, `msg2` og `encrypted`. 
