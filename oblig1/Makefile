@@ -1,9 +1,16 @@
+GPP=g++
+GPPOPT=-std=c++11
 
-all: oppvarming, blackjack
+OBJ=oppvarming blackjack
+
+all: $(OBJ)
 
 oppvarming:
-        g++ -std=c++11 oppvarming.cpp -o oppvarming
+	$(GPP) $(GPPOPT) oppvarming.cpp -o $@
 
 blackjack:
-	g++ -std=c++11 blackjack.cpp -o blackjack
+	$(GPP) $(GPPOPT) blackjack.cpp -o $@
 
+
+clean: 
+	-$(RM) $(OBJ)
