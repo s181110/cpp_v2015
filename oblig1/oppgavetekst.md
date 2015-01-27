@@ -64,7 +64,7 @@ Som nevnt på forelesning håper vi å kunne bruke git som innleveringsverktøy.
    $ cp ./cpp_v2014/oblig1 my_repo
    ```
    Der `my_repo` er skiftet ut med mappenavnet til ditt repository. Du får da med oppgaveteksten, og filene der du skal skrive koden. 
-5. Implementér dine løsninger i filene `oppvarming.cpp` og `blackjack.cpp`. Du kan legge til så mange andre filer du vil, så lenge prosjektet kan bygges kjøres med kommandoen `make && ./run.sh`
+5. Implementér dine løsninger i filene `oppvarming.cpp` og `blackjack.cpp`. Du kan legge til så mange andre filer du vil, så lenge prosjektet kan bygges med kommandoen `make` og kjøres med hhv. `./blackjack` og `./oppvarming`
 4. Du kan nå committe og pushe så mange ganger du vil, frem mot innleveringsfristen *forutsatt at ditt repo er privat, og kun du og alfred-bratterud har tilgang* (Offentliggjøring eller av innholdet blir betraktet som juks). 
 5. Det som ligger i ditt repository når fristen faller blir automatisk klonet ned av oss, og betraktet som din innlevering.
 
