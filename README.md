@@ -2,6 +2,7 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **29.01.15: Gitlab.** Jeg har nå opprettet gitlab-brukere til alle som har sendt meg forespørsel om dette (7 stk.). Dere skal ha fått en mail med link til der dere kan sette passord. Linken utløper etter en stund - hvis den gjør det kan dere gå til hovedsiden for gitlab-serveren [git.cs.hioa.no](git.cs.hioa.no), og velge "Forgot your password".  **OBS:** *Alle som har tenkt å levere oblig1 er nødt til å ha levert en link til enten gihtub, eller gitlab, via fronter innen neste tirsdag!*
 * **29.01.15:** Semesterplanen er rettet. Den var full av gale datoer, pga. skjulte, gale årstall i Excel-cellene mine. Det er rettet nå, så sørg for å oppdatere deres kalendere! **PS:** Ang. presentasjoner av prosjektoppgaven blir det umulig å si pga. barnefødsel. Det blir imidlertid enten i god tid før, eller rett etter fristen for bacheloroppgave. Dette er obligatorisk.
 * **27.01.15:** Oblig 1 lagt ut! Alt ligger under [./oblig1](./oblig1). **OBS:** Er det feil, uklarheter eller spørsmål rundt obligen, post en issue under issue-trackeren her på github!
 * Andreas har laget løsningsforslag til I/O-delen av forrige ukes oppgaver. Flere er på vei. Bra jobba Åkesson!
