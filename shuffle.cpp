@@ -1,7 +1,22 @@
+/**
+   Eksempler på bruk av random_shuffle
+   
+   Kompiler med:
+   g++ -std=c++11 shuffle.cpp -o shuffle
+
+   Dette kjører fint på Linux-vm'en - og alt fungerer "Som forventet"
+   Bruker du andre platformer kan du få annen oppførsel bla. siden rand()
+   kan være implementert forskjellig.   
+ **/
+
 #include <iostream>
 
-// "Gamle" random_shuffle ligger her
+// random_shuffle ligger her
 #include <algorithm>
+
+// Nye random-generatorer for C++11 ligger her
+// Feks. Mersenne Twister, "mt19937" - som er det rand() bruker uansett :-)
+#include <random>
 
 
 using namespace std;
@@ -54,14 +69,38 @@ int main(){
   
   for(Ting t : ting)
     cout << t.str() << endl;
-    
+  
+  
   cout << endl << "Shuffle tang - men med egen random-funksjon" << endl;
   
   random_shuffle(tang.begin(),tang.end(),super_random);
   
   for(Tang t : tang)
-    cout << t.str() << endl;
+    cout << t.str() << endl; 
   
+  /** 
+      Shuffle med C++11-generatorene i <random> 
+      
+      Forskjellen på "shuffle" og "random_shuffle" er nettopp
+      signaturen på generator-funksjonen. "shuffle" tar en funksjon
+      uten parametre - som er litt lettere.
+  **/
+  
+  std::mt19937 generator (time(0)); 
+  cout << endl <<  "Eksempel på noen random-tall fra C++11 'Mersenne twister':"
+       << endl 
+       << generator() << endl
+       << generator() << endl
+       << generator() << endl;
+  
+
+  cout << endl << "Shuffle tang - med C++11 random-generator"
+       << "(som det er mange av)" << endl;
+  
+  shuffle(tang.begin(),tang.end(),generator);
+          
+  for(Tang t : tang)
+    cout << t.str() << endl;    
   
   
 }
