@@ -2,6 +2,7 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **03.02.15: random_shuffle**: Det var mange spørsmål på lab i dag om bruk av `random_shuffle`. Jeg har nå implementert shuffling med både nye og gamle random-generatorer i [./shuffle.cpp](./shuffle.cpp), med noen eksempler. Mange av feilene jeg så på lab har jeg ikke klart å gjenskape - jeg anbefaler derfor på det sterkeste at alle kjører på Linux, med ny versjon av GCC.  **OBS:** Send meg gjerne info om problemer dere finner rundt dette, som ikke dekkes av eksemplene! **PS:** Dere trenger ikke bruke random_shuffle i oblig1 - det er veldig enkelt å lage egen funksjon for å stokke kort også - helt valgfritt :-)
 * **03.02.15: Oblig1 og Git - VIKTIG**: 
   * Husk at ***ingen skal legget ut noen ting fra obligen i et "public" repo.*** Det blir det samme som juks!
   * Alle som nå ikke har fått github-bruker må sende meg mail ASAP, med subject "github". Jeg lager da en gitlab-bruker til deg. Du må ha et ***fungerende repo oppe innen i morgen*** - da vil jeg forsøke å klone alle og sjekke at det virker.
