@@ -2,6 +2,16 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **09.02.15: Sjekkliste for link på fronter** Det er mange som har levert link på fronter - men ikke alle. Her er en sjekkliste - som gjelder **alle** - har du gjort noe annet enn det som står på listen, eller fått en kommentar på fronter, gå inn og endre:
+  1. **Alle skal levere link** - dette gjelder også dere som har fått gitlab-konto; det er først når dere lager repo at det blir en link, og den trenger vi.
+  2. **Ikke laste opp linken som en fil**, bare velge "Create link"
+    * **Skriv inn URL'en både under "Url" og "Title"** (da blir det lettere å hente ut 50+ stykker)
+  4. **Du skal kun levere 1 link**. Det er ikke OK med flere, fordi det da blir uklart hvilken som gjelder. Har du levert flere, bare fjern den ene.
+  5. **Linken skal være https-linken til ditt repo - ikke til en undermappe** under ditt repo, og ikke til din bruker.
+  6. **Jeg må ha lese- og skrivetilgang**. Brukeren `alfred-bratterud` har fått tilgang på github / brukeren `alfreb` på gitlab. Trenger pushe-tilgang for å gi tilbakemeldinger.
+* **05.02.15: Alle som har spurt skal ha fått gitlab-konto**: *Dersom du ikke har fått mail fra gitlab, eller fra meg nå, eller av en eller annen grunn mangler noe for å levere oblig1, send meg beskjed asap!* **OBS: bruk https-linken** når dere kommuniserer med gitlab via git, for å autentisere med deres gitlab brukernavn og passord. Dere kan også bruke SSH-linken, men dere må da legge inn en ssh-nøkkel under deres profil på gitlab (samme gjelder github). Fordelen da er at dere slipper brukernavn og passord. Https-linken funker imidlertid med deres gitlab brukernavn og passord og en helt grei løsning. Følg instruksjonene som ligger på gitlab-siden når dere har opprettet et privat prosjekt; den forteller hvilke git-kommandoer dere skal kjøre for å få opp koden deres. Kommandoene skal funke både fra kurs-vm'en og fra studssh.
+* **04.02.15: Github/Gitlab**: Jeg har fremdeles ikke rukket å legge inn alle som har bedt om gitlab-bruker, men alle som har sendt e-post om dette vil få svar i løpet av morgendagen, og trenger ikke bekymre seg. Dere som hverken har sendt e-post eller registrert github-link må sende meg e-post asap., med emne "github" eller "gitlab". 
+* **03.02.15: random_shuffle**: Det var mange spørsmål på lab i dag om bruk av `random_shuffle`. Jeg har nå implementert shuffling med både nye og gamle random-generatorer i [./shuffle.cpp](./shuffle.cpp), med noen eksempler. Mange av feilene jeg så på lab har jeg ikke klart å gjenskape - jeg anbefaler derfor på det sterkeste at alle kjører på Linux, med ny versjon av GCC.  **OBS:** Send meg gjerne info om problemer dere finner rundt dette, som ikke dekkes av eksemplene! **PS:** Dere trenger ikke bruke random_shuffle i oblig1 - det er veldig enkelt å lage egen funksjon for å stokke kort også - helt valgfritt :-)
 * **03.02.15: Oblig1 og Git - VIKTIG**: 
   * Husk at ***ingen skal legget ut noen ting fra obligen i et "public" repo.*** Det blir det samme som juks!
   * Alle som nå ikke har fått github-bruker må sende meg mail ASAP, med subject "github". Jeg lager da en gitlab-bruker til deg. Du må ha et ***fungerende repo oppe innen i morgen*** - da vil jeg forsøke å klone alle og sjekke at det virker.

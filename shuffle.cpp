@@ -1,5 +1,5 @@
 /**
-   Eksempler på bruk av random_shuffle
+   Eksempler på bruk av random_shuffle og den nyere erstatningen shuffle
    
    Kompiler med:
    g++ -std=c++11 shuffle.cpp -o shuffle
@@ -84,6 +84,9 @@ int main(){
       Forskjellen på "shuffle" og "random_shuffle" er nettopp
       signaturen på generator-funksjonen. "shuffle" tar en funksjon
       uten parametre - som er litt lettere.
+      
+      PS: Som Simen påpeker i #7 ser random_shuffle ut til å bli "deprecated"
+      så shuffle anbefales i stedet.  Det er imdlertid ingen trekk for å bruke random_shuffle i oblig1
   **/
   
   std::mt19937 generator (time(0)); 
