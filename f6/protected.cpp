@@ -31,7 +31,7 @@ public:
 int main(){
   cout << "*** \"Protected\" Investments ***" << endl;
   Account familySavings;  
-  cout << endl << "Joe saves some money for his faimily. ";
+  cout << endl << "Joe saves some money for his family. ";
   
   familySavings.deposit(500);
   
@@ -39,10 +39,14 @@ int main(){
   
   cout << endl << "A guy in a silk suit - an 'investor' - enters the bank..." 
        << endl;
+  
+  // He has a dirty plan...
   PensionFund mafiaWarChest;  
+  
+  // But let's make a nice front - just for appearances
   PensionFund* protectedInvestments = &mafiaWarChest;
   
-  // And let's make a nice front - just for appearances
+  // Should this be OK? The white-hat guy never intended for this!
   protectedInvestments->invest(&familySavings);
   
   cout << "Family Savings are now: " << familySavings.balance() << endl;
