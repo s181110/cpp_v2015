@@ -2,6 +2,7 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **16.02.15: Undervisningsfri i morgen**. Som det står i [semesterplanen for kurset](./Semesterplan_CPP_2015.pdf) er det ingen undervisning i morgen, fordi dette er bestemt i [semesterplanen for fakultetet](http://www.hioa.no/Studier-og-kurs/TKD/Undervisnings-og-semesterplaner/Semesterplan-tekniske-studier-2014-2015). Men, Andreas blir å finne på lab, så kom gjerne og løs oppgaver - det er gått igjennom en del nytt stoff som bør sitte når oblig2 kommer ut. 
 * **09.02.15: Sjekkliste for link på fronter** Det er mange som har levert link på fronter - men ikke alle. Her er en sjekkliste - som gjelder **alle** - har du gjort noe annet enn det som står på listen, eller fått en kommentar på fronter, gå inn og endre:
   1. **Alle skal levere link** - dette gjelder også dere som har fått gitlab-konto; det er først når dere lager repo at det blir en link, og den trenger vi.
   2. **Ikke laste opp linken som en fil**, bare velge "Create link"
