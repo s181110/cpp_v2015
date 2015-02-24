@@ -1,3 +1,23 @@
+## Uke 9-10: Copy- og move, + mer av det meste
+1. Lag en klasse `Word` som inneholder en `char* s`, der `s` er en 0-terminert string. Tanken er at dette kan være en del av en teksteditor. Feks. kan den brukes til å utheve visse ord i en tekst etc.
+   * Konstruktøren `Word(const char* str)` skal kopiere `str` til "heap", ved å lage en `new char[len]`, der `len` er lengden. Du kan bruke `strlen` til å finne lengden, eller telle selv. Du kan bruke `strcpy` eller `memcpy` til å kopiere, eller iterere selv.
+   * I samme headerfil som "word", skal det defineres en `WordException` som arver `runtime_error` (i `<stdexcept>`).   
+   * Konstruktøren skal garantere at det ikke er "whitespace" i ordet - er det det, skal det kastes en "WordException". Du kan bruke [`<regex>`](http://www.cplusplus.com/reference/regex/) og [regex-klassen `\s` eller `\S`](http://www.cplusplus.com/reference/regex/ECMAScript/) til å finne whitespace/ikke whitespace (og kompilere med g++-4.9), eller bare sjekke manuelt for ' ', '\n' og '\t'.
+   * `int Word::size()` skal gi antall tegn i ordet. (Ikke unicode-tegn- tenk bytes som ikke er 0).
+   * Strømoperatoren skal overlastes slik at `Word w{"hello"};` og `cout << w << endl;` skriver ut ordet.
+   * Index-operatoren skal overlastes slik at `w[2]='W'` ender det tredje tegnet i ordet til `W`. Bruker man for høy indeks skal det kastes exception. 
+   * Implementer funksjonene `char* begin()` og `char* end()` - de skal returnere pekere til hhv. første og "siste +1" tegn. Sjekk at du nå kan iterere over tegnene med `for(auto c : myWord)`. 
+   * Uten å lage copy-constructor, forsøk å lage en kopi av ordet "hello" over, med `Word w2{w}`. Endre noen av bokstavene ved å bruke indeks-operatoren. Når du nå skriver ut `w` - skal dette også ha blitt endret. Er det sånn det skal være?
+   * Lag copy-constructor, som gjør en "deep copy" av ordet.    
+   * Prøv nå med:
+       * `Word w3{w1}` - Hva skjer?
+       * Prøv "assignment"; `w = "OUPS!"`. Hva skjer? 
+       * Hva med `Word w2 = w`? 
+       * Eller `Word w2{"COOL!"}; w = w2`?
+   * Implementér [copy-assignment operator](http://en.cppreference.com/w/cpp/language/as_operator) for Word. Lag en medlemsfunksjon `static copy(Word& cpy)` som kopierer `cpy` inn "hit"
+   * Implementér [move constructor](http://en.cppreference.com/w/cpp/language/move_constructor) og [move-assignment operator](http://en.cppreference.com/w/cpp/language/move_operator). Du kan bruke [`std::move`](http://en.cppreference.com/w/cpp/utility/move) for å eksplisitt kalle din move-konstruktør. Forsøk å få kompilatoren til å bruke den! **Tips:** `Word w4{change_meaning(w)}` er en start - men det er ikke alltid det blir move- av det (hva gjør kompilatoren da? la alle konstruktører skrive ut noe, evt. se på assembler-koden). Forsøk å la `change_meaning` klatre "tilfeldig høyt" på stack, før den endrer på ordet, og så returnerer. 
+   * I funksjonen `copy` som du implementerte, inkrementér en statisk teller `copy_count` hver gang. Denne verdien kan skrives ut rett før main avslutter. Lag kode med og uten move-konstruktør, og se om du får til en situasjon der det blir færre kopieringer med, enn uten.
+
 ## Uke 9-10: Arv og polymorfi. 
 1. Oppdater programmet fra forrige oppgavesett, "supplier" og "consumer", til å bli polymorfisk:
    * Lag en virtuell `string str()`-funksjon i baseklassen "user". Denne skal overrides i begge subklassene, og i tillegg til brukerdata, også oppgi om brukeren er en "supplier" eller en "consumer".
