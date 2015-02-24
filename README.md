@@ -2,6 +2,15 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **24.02.15: Lab i dag** Siden vi har mange 2.klasse-ingeniører som har fysikk nå, tar jeg *kodeeksempler i plenum kl. 14:30*. Frem til da - gjør oppgaver! Flere er på vei, veldig snart. 
+  * **Oblig 1**: Du kan forberede deg på å få obligen i retur hvis en av punktene under ikke er oppfylt. Vet du at det er tilfelle er det lurt å sette i gang med å jobbe videre med dette nå! 
+    * Det skal være med en Makefile, slik at koden kompilerer med `make` (se oppgaveteksten). Det lå en fin makefile med oppgaven som enkelt kan tilpasses.
+    * Man må minst kunne spille en enkel runde blackjack, med en spiller.
+    * Det skal ikke være minnelekkasjer. Prøv å kjøre koden din med feks. `valgrind ./blackjack`, for å se "Leak summary"
+    * `oppvarming` må gi gyldig output - dvs. tre tekster på vanlig engelsk.
+    * Alt skal kjøre på Linux - samme versjon som VM'en (Ubuntu 14.04).
+    * Det kan ikke være noen alvorlige kjøretidsfeil, som "segfault" ved normal bruk. 
+    * Det må være en liten rapport, "RAPPORT.md" som kort oppsummerer hvordan programmet ditt er tenkt / virker. En liten tegning (flytdiagram / klassediagram) anbefales - det blir et krav senere.
 * **16.02.15: Undervisningsfri i morgen**. Som det står i [semesterplanen for kurset](./Semesterplan_CPP_2015.pdf) er det ingen undervisning i morgen, fordi dette er bestemt i [semesterplanen for fakultetet](http://www.hioa.no/Studier-og-kurs/TKD/Undervisnings-og-semesterplaner/Semesterplan-tekniske-studier-2014-2015). Men, Andreas blir å finne på lab, så kom gjerne og løs oppgaver - det er gått igjennom en del nytt stoff som bør sitte når oblig2 kommer ut. 
 * **09.02.15: Sjekkliste for link på fronter** Det er mange som har levert link på fronter - men ikke alle. Her er en sjekkliste - som gjelder **alle** - har du gjort noe annet enn det som står på listen, eller fått en kommentar på fronter, gå inn og endre:
   1. **Alle skal levere link** - dette gjelder også dere som har fått gitlab-konto; det er først når dere lager repo at det blir en link, og den trenger vi.
