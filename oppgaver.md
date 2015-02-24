@@ -1,3 +1,32 @@
+## Uke 9-10: Arv og polymorfi. 
+1. Oppdater programmet fra forrige oppgavesett, "supplier" og "consumer", til å bli polymorfisk:
+   * Lag en virtuell `string str()`-funksjon i baseklassen "user". Denne skal overrides i begge subklassene, og i tillegg til brukerdata, også oppgi om brukeren er en "supplier" eller en "consumer".
+   * Lage en vector av pekere til `user`, og legg inn alle fire instansene fra sist. Oppdater funksjonen `userlist` til å skrive ut alle brukere polymorfisk, ved å kalle `str()` på hver peker. 
+
+2. Oppgaver og drill fra boken, kap. 14. Disse oppgavene bruker grafikkbiblioteket fra [fltk.org](http://www.fltk.org). Biblioteket fungerer for Mac, Windows og Linux, men må lastes ned fra hjemmesidene. For windows/visual studio står det en brukerveiledning i et eget appendix i boken (Appenix D s.1157), mens for Linux og Mac, må du bruke dokumentasjonen på hjemmesidene. Det er alltid litt knot å installere tredjeparts kode - og i seg selv er det en *svært nyttig* øvelse. 
+Bruk av dette biblioteket vil også være nyttig for å ha noe å sammenlikne med når vi senere skal bruke Qt, som fungerer svært anderledes. 
+
+## Uke 8-9: Arv, exceptions og operatoroverlasting
+Du skal lage et lite system for å registrere brukere "på en nettbutikk". Du skal ikke lage noe web-grensesnitt, eller bruke nettverket, bare ta imot input fra brukeren via terminal. 
+
+  1. **Arv, intro**: Systemet skal støtte to typer brukere; sluttkunder og leverandører. Du skal lage en klasse for hver, "consumer" og "supplier", som begge arver en mer generell klasse "user". Klassen `user` skal ha feltene `firstName`, `lastName`, `email`, `phone`, der alt utenom `phone` er obligatoriske felter. Klassen `consumer` skal ha feltene `org_no` som er et numerisk organisasjonsnummer og `discount`, som er en fast prosentsats, som i utgangspunktet settes til `5.0`. 
+    * Lag klassene og opprett 2 ulike brukere av hver type
+    * Overlaste strømoperatoren for alle klassene slik at du kan skrive dem ut direkte slik: `cout << user1 << endl`
+    * Lag en vector for hver subklasse, og legg inn de to elementene. Lag en funksjon `userlist` som skriver ut alle.
+
+  2. **Arv og exceptions**: Lag et registreringsbilde (bare en løke som venter på input fra `cin`) der man kan registrere seg. Dette skal ligge i en funksjon `user register()`, som returnerer en bruker, dersom registreringen var vellykket.
+    * Det første systemet skal be om er om du vil opprette en `supplier` eller en `consumer`. Brukeren må da skrive inn dette som ren tekst. Dersom brukeren skriver noe annet skal det kastes en exception
+    * Lag nå "form validation"; utvide systemet slik at det kastes egne exceptions for følgende: 
+      * navn som inneholder noe annet en bokstaver, 
+      * e-post som ikke inneholder minst en bokstav, fulgt av alfakrøll, fulgt av minst to bokstaver, så et punktum så minst to bokstaver
+      * Organisasjonsnummer som ikke er numerisk (ta det imot som en string)
+      * Telefonnummer som ikke er 8 siffer (ta det også imot som en string)
+    * Lag en egen catch-clause for hver av disse
+    * Dersom noe annet går galt, feks. at prosentsatsen er høyere enn 100, skal det kastes en stekepanne (en klasse fryingPan, med valgfritt innhold). Denne skal også fanges.
+    * Til slutt, lag en generell catch-clause som fanger alle typer objekter.
+    * Endre nå oppførsel i systemt slik at det *blir* opprettet en bruker, selv om telefonnummeret er feil, da bare uten telfonnummer. Dette gjøres når du fanger exception av typen som indikerer galt telefonnummer. For andre typer exceptions skal det bare skrives ut beskjed om at brukeren ikke ble opprettet.
+    * Til sist i programmet skal listen av brukere skrives ut.
+
 
 ## Uke 5-6: Objektorientert programmering
    1. **Konstruktører og initialisering:** 
