@@ -17,6 +17,11 @@
    * Implementér [copy-assignment operator](http://en.cppreference.com/w/cpp/language/as_operator) for Word. Lag en medlemsfunksjon `static copy(Word& cpy)` som kopierer `cpy` inn "hit"
    * Implementér [move constructor](http://en.cppreference.com/w/cpp/language/move_constructor) og [move-assignment operator](http://en.cppreference.com/w/cpp/language/move_operator). Du kan bruke [`std::move`](http://en.cppreference.com/w/cpp/utility/move) for å eksplisitt kalle din move-konstruktør. Forsøk å få kompilatoren til å bruke den! **Tips:** `Word w4{change_meaning(w)}` er en start - men det er ikke alltid det blir move- av det (hva gjør kompilatoren da? la alle konstruktører skrive ut noe, evt. se på assembler-koden). Forsøk å la `change_meaning` klatre "tilfeldig høyt" på stack, før den endrer på ordet, og så returnerer. 
    * I funksjonen `copy` som du implementerte, inkrementér en statisk teller `copy_count` hver gang. Denne verdien kan skrives ut rett før main avslutter. Lag kode med og uten move-konstruktør, og se om du får til en situasjon der det blir færre kopieringer med, enn uten.
+2. SmartWord? I en bok på 1000 sider- trenger vi egentlig å ha flere kopier av samme ord? Siden `Word` uansett inneholder en peker, vil det være noe spart, hvis mange av disse peker på samme sted. Prøv! Lag et lite program `Words`, som tar imot en tekst fra standard in (`cin >> myString`, og feks. `Word(string s)`). 
+  * Lag en `static vector<Word> dictionary` i `Word`. Hver gang det opprettes et ord, sjekk først om ordet finnes i dictionary. Gjør det det, la dette ordet peke på "samme data". 
+  * Pøs inn en stor tekst (feks. med `cat republic.txt | ./Words` der [republic.txt er platons staten](http://www.gutenberg.org/cache/epub/1497/pg1497.txt)), og legg alle ordene inni en vector av ord "Document". 
+  * Skriv ut de første 300 linjene av teksten, vet å bare iterere over alle ordene.
+  * Anta at du nå skal skrive ut de samme 300 linjene, men å la et søkeord "state" utheves med "all caps". Hvordan kan du enklest mulig implementere det? Prøv!
 
 ## Uke 9-10: Arv og polymorfi. 
 1. Oppdater programmet fra forrige oppgavesett, "supplier" og "consumer", til å bli polymorfisk:
