@@ -2,6 +2,7 @@
 *DAVE3605, Vår 2015*
 
 ## NYHETER
+* **03.03.15: Tilbakemeldinger på oblig1 på vei.** Jeg er hjemme med en syk 3-åring, men jobber med å få ut alle tilbakemeldinger. Alle er rettet, de kommer ut fortløpende utover dagen.
 * **02.03.15: Forelesning i morgen avlyst.** Her er vi syke alle mann; datteren min er hjemme fra barnehage på tredje dagen og jeg har det samme viruset selv. Jeg prøver å få laget en video-forelesning for å få dekket det vi ikke rekker i morgen, evt. ta det i neste uke. **PS:** Andreas er på lab, og jeg regner med at dere  har nok av oppgaver å jobbe med. Ellers skal jeg legge ut enda fler. 
 * **24.02.15: Lab i dag** Siden vi har mange 2.klasse-ingeniører som har fysikk nå, tar jeg *kodeeksempler i plenum kl. 14:30*. Frem til da - gjør oppgaver! Flere er på vei, veldig snart. 
   * **Oblig 1**: Du kan forberede deg på å få obligen i retur hvis en av punktene under ikke er oppfylt. Vet du at det er tilfelle er det lurt å sette i gang med å jobbe videre med dette nå! 
