@@ -1,5 +1,7 @@
 # Effektiv kode med C og C++
 *DAVE3605, Vår 2015*
+* **Faglærer:** Alfred Bratterud - alfred.bratterud æt hioa.no
+* **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
 * **04.03.15: Tilbakemeldinger på oblig1 ute.** Alle skal ha fått tilbakemelding på sin oblig1. Dette er blitt lagt til i fila `FEEDBACK.md` direkte i ditt repository. 
