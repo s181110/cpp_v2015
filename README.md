@@ -4,6 +4,10 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **09.03.15: Videoforelesning i morgen**. Jeg er fortsatt hjemme med feber og influensa (veldig ergelig for oss alle), men jeg har laget en videoforelesning til i morgen. Den blir lagt ut her, før ordinært forelesningstidspunkt. 
+  * **OBS** Selv om jeg ikke dukker opp for å smitte deg fysisk - *hold tempoet oppe!* Oblig2 er rett rundt hjørnet, og da blir det forventet at alt som er gått igjennom, og gitt i oppgaver til nå, skal sitte. 
+  * Andreas dukker opp på lab i morgen, og det kommer egne oppgaver til dagens tema (templates), i tillegg til de mange som ligger ute fra før. 
+  * I tillegg kan du alltid sende meg faglige spørsmål på e-post. Ren debugging må du klare selv, men ingen spørsmål er i utgangspunktet for dumme - og heller ikke for vanskelige. Jeg svarer ikke på minuttet, men alle som har spurt har fått svar.
 * **04.03.15: Tilbakemeldinger på oblig1 ute.** Alle skal ha fått tilbakemelding på sin oblig1. Dette er blitt lagt til i fila `FEEDBACK.md` direkte i ditt repository. 
   * Hvis du har fått beskjed om å levere på nytt: Du har da **1 ukes frist**, dvs. innen neste onsdag kl. 02:00 til å committe dine endringer (da puller vi). Siden oblig2 kommer denne dagen blir dette siste sjanse - så *make it count*.
   * Hvis du har faglige spørsmål til din feedback, kontakt Andreas. Han vil ta det videre med meg hvis nødvendig.
