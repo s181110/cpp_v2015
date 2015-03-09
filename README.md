@@ -1,7 +1,15 @@
 # Effektiv kode med C og C++
 *DAVE3605, Vår 2015*
+* **Faglærer:** Alfred Bratterud - alfred.bratterud æt hioa.no
+* **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **04.03.15: Tilbakemeldinger på oblig1 ute.** Alle skal ha fått tilbakemelding på sin oblig1. Dette er blitt lagt til i fila `FEEDBACK.md` direkte i ditt repository. 
+  * Hvis du har fått beskjed om å levere på nytt: Du har da **1 ukes frist**, dvs. innen neste onsdag kl. 02:00 til å committe dine endringer (da puller vi). Siden oblig2 kommer denne dagen blir dette siste sjanse - så *make it count*.
+  * Hvis du har faglige spørsmål til din feedback, kontakt Andreas. Han vil ta det videre med meg hvis nødvendig.
+  * **OBS:** *Dersom du mangler feedback, og mener du burde fått det, ta kontakt med alfred på e-post ASAP.* 
+* **03.03.15: Tilbakemeldinger på oblig1 på vei.** Jeg er hjemme med en syk 3-åring, men jobber med å få ut alle tilbakemeldinger. Alle er rettet, de kommer ut fortløpende utover dagen.
+* **02.03.15: Forelesning i morgen avlyst.** Her er vi syke alle mann; datteren min er hjemme fra barnehage på tredje dagen og jeg har det samme viruset selv. Jeg prøver å få laget en video-forelesning for å få dekket det vi ikke rekker i morgen, evt. ta det i neste uke. **PS:** Andreas er på lab, og jeg regner med at dere  har nok av oppgaver å jobbe med. Ellers skal jeg legge ut enda fler. 
 * **24.02.15: Lab i dag** Siden vi har mange 2.klasse-ingeniører som har fysikk nå, tar jeg *kodeeksempler i plenum kl. 14:30*. Frem til da - gjør oppgaver! Flere er på vei, veldig snart. 
   * **Oblig 1**: Du kan forberede deg på å få obligen i retur hvis en av punktene under ikke er oppfylt. Vet du at det er tilfelle er det lurt å sette i gang med å jobbe videre med dette nå! 
     * Det skal være med en Makefile, slik at koden kompilerer med `make` (se oppgaveteksten). Det lå en fin makefile med oppgaven som enkelt kan tilpasses.
