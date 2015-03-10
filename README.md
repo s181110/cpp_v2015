@@ -4,6 +4,13 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **10.03.15: Dagens opplegg - viktig at det gjennomføres!**
+  1. Se videoforelesning om grunnleggende bruk av templates her: [720p](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/09.03/2324600/Templates_Basics_-_20150309_205003_36.html), [480p](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/09.03/2324600/Templates_Basics_-_20150309_205003_38.html)
+  2. Svar på [5 spørsmål om hvordan dette fungerte.](http://goo.gl/forms/EmRY9xzTi9)
+  3. Les litt mer detaljert om dette i boken, kap. 19, minst tom. kap. 19.3
+  4. Gjør oppgaver fra boken om templates: "Drill" Kap. 19, Exercises kap.19, nr. 1-7 
+  5. Fortsett gjerne med kapitel 19.4 og utover - det går da over i ressurshåndtering, og et "pattern", RAII, som vi har snakket litt om før, og som vi kommer tilbake til.
+  6. **Oblig 2:** Denne kommer så fort jeg klarer å få den ferdig, senest neste tirsdag. I mellomtiden *bruk tiden godt* på å komme ajour med oppgaver!
 * **09.03.15: Videoforelesning i morgen**. Jeg er fortsatt hjemme med feber og influensa (veldig ergelig for oss alle), men jeg har laget en videoforelesning til i morgen. Den blir lagt ut her, før ordinært forelesningstidspunkt. 
   * **OBS** Selv om jeg ikke dukker opp for å smitte deg fysisk - *hold tempoet oppe!* Oblig2 er rett rundt hjørnet, og da blir det forventet at alt som er gått igjennom, og gitt i oppgaver til nå, skal sitte. 
   * Andreas dukker opp på lab i morgen, og det kommer egne oppgaver til dagens tema (templates), i tillegg til de mange som ligger ute fra før. 
