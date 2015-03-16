@@ -4,6 +4,8 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **16.03.15: Forelesning som normalt i morgen**: Veldig hyggelig med mange- og gode tilbakemeldinger på videoforelesningen. 
+*Til dere som enda ikke har sett den (over halvparten) - se den, og svar på undersøkelsen. Svarene vil påvirke opplegget fremover.* Det overveldende flertallet syntes innholdet var veldig nyttig, og generelt vil de fleste ha mer av dette. Jeg tar det til etterretning, men kjører vanlig opplegg i morgen - da blir det presentasjon av Oblig2. Hyggelig om vi sees da!
 * **10.03.15: Dagens opplegg - viktig at det gjennomføres!**
   1. Se videoforelesning om grunnleggende bruk av templates her: [720p](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/09.03/2324600/Templates_Basics_-_20150309_205003_36.html), [480p](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/09.03/2324600/Templates_Basics_-_20150309_205003_38.html)
   2. Svar på [5 spørsmål om hvordan dette fungerte.](http://goo.gl/forms/EmRY9xzTi9)
