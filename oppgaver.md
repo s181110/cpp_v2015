@@ -1,3 +1,26 @@
+Oppgaver, C++ 2015
+===========================
+## Uke 12: Fyrverkeri
+Oblig2 vil gå ut på å implementere fyrverkeri, basert på et klassehierarki dere vil få utdelt. Dere skal bruke `fltk 1.3.2`, som dere finner [dokumentert her](http://www.fltk.org/doc-1.3/index.html). Som en forberedelse til dette, kan disse oppgavene være nyttige, i tillegg til forrige ukes oppgaver:
+  * Hvis du har løst forrige ukes oppgaver vil du være i stand til å tegne ulike former i et vindu. Forsøk nå å få en liten fargelagt dott til å bevege seg over skjermen. Gjør dette så ukomplisert og enkelt som mulig.
+    * Undersøk de statiske funksjonene `Fl::add_timeout` og `Fl::repeat_timeout` i klassen `Fl`. Bruk gjerne utskrift til terminal til å sjekke at du får til å "fyre av en timeout-event" regelmessig før du begynner å tegne
+    * Undersøk de ulike tegnefunksjonene beskrevet i "FLTK Programming Manual", [her](http://www.fltk.org/doc-1.3/drawing.html). 
+    * Hvis du tegner en ny dott hver gang et timeout-event fyrer, hvordan får du den "forrige dotten" til å bli borte? Hva vil det si å "flytte" en dott?
+  * Få en dott til å flytte seg med en viss hastighet i x-retningen og en annen hastighet i y-retningen. Hastighetene kan være tilfeldig valgt, men bør være innenfor et intervall der man kan se dotten fint når den flytter seg. Du må da gi dotten nye x- og y-koordinater hver gang et timer-interrupt fyrer. 
+  * Lag nå mange slike dotter, som alle starter på samme sted, men flytter seg med en tilfeldig hastighet i hhv. x- og y-retningen. Hvordan ser dette fyrverkeriet ut? Hvorfor? 
+  * Få en dott til å bevege seg i en gitt retning, der retning er definert ved en vinkel, i radianer. Radianer er vanligvis definert som et reelt tall mellom 0 og 2Pi, men det er enklere å bruke "Tau" som en konstant for 2Pi. Les mer om dette på [tauday.com](http://tauday.com/) og se gjerne videoen. For å finne de nye x- og y-koordinatene basert på vinkelen trenger du å gjøre en veldig enkel beregning som involverer sinus, cosiunus og hastigheten.
+  * Du bør nå klare å lage effekten av en enkelt rakett. Eksperimenter med å gi dottene litt ulike farger. Forsøk å få til 
+    * Helt rødt, grønt eller blått
+    * Alle dotter har ulike, men kun "sterke farger"
+    * Alle dotter har ulike farger, men "mest rødt", "mest lilla", "mest gult" etc.
+  * Forsøk å få dottene til å få gradvis svakere farge, etter hvert som de beveger seg vekk fra utgangspunktet.
+  * Generalisér løsningen. Hvordan får du nå mange raketter til å eksplodere?
+  * Forsøk å designe et objektorientert fyrverkeri, med det du mener er et godt design. Når du får oblig2 vil du da være svært godt forberedt :-)
+
+## Uke 11: Templates.  
+* Gjør oppgaver fra boken om templates: "Drill" Kap. 19, Exercises kap.19, nr. 1-7 
+* Fortsett gjerne med kapitel 19.4 og utover - det går da over i ressurshåndtering, og et "pattern", RAII, som vi har snakket litt om før, og som vi kommer tilbake til.
+
 ## Uke 9-10: Copy- og move, + mer av det meste
 1. Lag en klasse `Word` som inneholder en `char* s`, der `s` er en 0-terminert string. Tanken er at dette kan være en del av en teksteditor. Feks. kan den brukes til å utheve visse ord i en tekst etc.
    * Konstruktøren `Word(const char* str)` skal kopiere `str` til "heap", ved å lage en `new char[len]`, der `len` er lengden. Du kan bruke `strlen` til å finne lengden, eller telle selv. Du kan bruke `strcpy` eller `memcpy` til å kopiere, eller iterere selv.
