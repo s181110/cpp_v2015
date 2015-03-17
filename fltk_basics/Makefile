@@ -1,6 +1,9 @@
-
 # Denne kommandoen gir deg FLTK-versjon
-FLTK := $(shell fltk-config --version)
+FLTK := $(shell fltk-config --version )
+
+ifndef FLTK
+$(error "Fant ingen versjon av FLTK!")
+endif
 
 # Her gjør jeg en manuell if-test for å sjekke versjon
 # (PS: Ikke nødvendig for obligen, bare for å vise noen mulige opsjoner til FLTK)
