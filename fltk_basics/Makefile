@@ -5,12 +5,22 @@ FLTK := $(shell fltk-config --version)
 # Her gjør jeg en manuell if-test for å sjekke versjon
 # (PS: Ikke nødvendig for obligen, bare for å vise noen mulige opsjoner til FLTK)
 ifeq ($(FLTK),1.3.1)
-LDOPTS:=-L/usr/local/lib -lfltk -lm
-endif
-ifeq ($(FLTK),1.3.3)
-LDOPTS:=-L/usr/local/lib -lfltk -lXfixes -lXext -lpthread -ldl -lm -lX11
-endif
 
+# Den enkleste varianten
+LDOPTS:=-L/usr/local/lib -lfltk -lm
+
+else
+ifeq ($(FLTK),1.3.3)
+
+# Litt mer, for 1.3
+LDOPTS:=-L/usr/local/lib -lfltk -lXfixes -lXext -lpthread -ldl -lm -lX11
+else
+
+# Man kan la fltk-config finne ut av det for seg
+LDOPTS:=$(shell fltk-config --ldflags)
+
+endif
+endif
 
 SRC=fltk1.cpp
 BINARY=fltk1
@@ -32,6 +42,10 @@ info:
 fltk:
 	@echo "Building for "$(FLTK)
 	g++ -std=c++11 $(SRC) -o $(BINARY) $(LDOPTS)
-	@echo 'Run with ./'$(BINARY)
+	@echo 
+	@echo 'Done. Run with ./'$(BINARY)
+	@echo 
 
 
+clean:
+	$(RM) $(BINARY)
