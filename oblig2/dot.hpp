@@ -6,17 +6,20 @@
 #include "has_color.hpp"
 #include "animated.hpp"
 
-class dot : public animated, is_vector, has_color{
+class dot : public animated, public is_vector, public has_color{
   
   // Radius
   double r;
   
+public:
   /**  Don't change anything, just draw the dot */
   void draw() override;
-public:
   
   /** Initialize the dot.  */
   dot(float _x,float _y,float _r);  
+  
+  /** Initialize the dot with a starting color */
+  dot(float _x,float _y,float _r, Color c);  
   
   /** Virtual destructor. */
   ~dot() override;

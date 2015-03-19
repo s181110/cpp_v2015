@@ -7,6 +7,8 @@
 //Local includes
 #include "dot.hpp"
 
+class AbstractDotFactory;
+
 class rocket : public animated{
   
   // Number of dots
@@ -16,7 +18,7 @@ class rocket : public animated{
   int fuse;
   
   // All the dots
-  std::vector<dot> dots;
+  std::vector<dot*> dots;
   
   /** "burn the fuse", or if it's burnt down, increment all the dots **/
   void operator++() override;
@@ -25,8 +27,13 @@ class rocket : public animated{
   void reset() override {};
 
  public:
-  // Initialize
-  rocket(int _dotcount,int dotsize, int _fuse, int x, int y);  
+
+  // Initialize normal - rocket will just create default dots
+  rocket(int _dotcount,int dotsize, int _fuse, int x, int y);
+  
+  // Initialize with factory
+  rocket(int _dotcount,int dotsize, int _fuse, int x, int y, 
+         AbstractDotFactory* dotFactory);
   
   // Virtual destructor
   ~rocket() override;
