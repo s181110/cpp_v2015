@@ -4,6 +4,7 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **19.03.15: Header-filer for oblig2 ute**: Detaljert oppgavetekst er på vei (jobber med saken - mange hensyn å ta), men header-filene til oblig2 er lagt ut, så det er bare å begynne å implementere, iht. beskrivelsen i forelesningsnotatene. Fristen blir 2 uker fra i dag. 
 * **16.03.15: Forelesning som normalt i morgen**: Veldig hyggelig med mange- og gode tilbakemeldinger på videoforelesningen. 
 *Til dere som enda ikke har sett den (over halvparten) - se den, og svar på undersøkelsen. Svarene vil påvirke opplegget fremover.* Det overveldende flertallet syntes innholdet var veldig nyttig, og generelt vil de fleste ha mer av dette. Jeg tar det til etterretning, men kjører vanlig opplegg i morgen - da blir det presentasjon av Oblig2. Hyggelig om vi sees da!
 * **10.03.15: Dagens opplegg - viktig at det gjennomføres!**
