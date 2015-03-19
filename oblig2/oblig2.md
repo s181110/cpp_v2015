@@ -54,7 +54,7 @@ Du skal nå lage en ny versjon av det samme fyrverkeriet, der dottene lages av e
 PS: Når du først har forstått hvordan fabrikkene fungerer er det *veldig lett* å lage flere; det er snakk om en håndfull linjer kode pr. fabrikk - det er bare snakk om å returnere nye typer dotter.
 
 ## 3) Template-parameter for TintedDotFactory
-Endre `TintedDotFactory` til å ta en farge av typen [`FL_color`](http://www.fltk.org/doc-1.3/Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a) som template-parameter, slik at `TintedDotFactory<FL_BLUE>::create_dot()` returnerer dotter som er "stort sett blå", TintedDotFactory<FL_RED> lager "stort sett røde" dotter osv.  Med "stort sett" mener vi at du kan randomisere litt av fargenyansen, men at det alltid skal være overvekt av denne ene fargen.  
+Endre `TintedDotFactory` til å ta en farge av typen [`FL_color`](http://www.fltk.org/doc-1.3/Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a) som template-parameter, slik at `TintedDotFactory<FL_BLUE>::create_dot()` returnerer dotter som er "stort sett blå", `TintedDotFactory<FL_RED>` lager "stort sett røde" dotter osv.  Med "stort sett" mener vi at du kan randomisere litt av fargenyansen, men at det alltid skal være overvekt av denne ene fargen.  
 
 For å generere ulike versjoner av fargene kan du bruke funksjonene `fl_darker` og `fl_lighter`.
 
