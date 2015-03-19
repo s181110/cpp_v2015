@@ -58,6 +58,7 @@ Endre `TintedDotFactory` til å ta en farge av typen [`FL_color`](http://www.flt
 
 For å generere ulike versjoner av fargene kan du bruke funksjonene `fl_darker` og `fl_lighter`.
 
+Til slutt skal du utvide `fireworks2` til å la noen rockets få fabrikker med ulike "tints". Et eksempel på hvordan det kan se ut helt til slutt kan du se i [denne videoen](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/19.03/14400/Fireworks2_CPP_2015_-_20150319_145220_36.html).
 
 ## 4) Kortsvarsspørsmål
 Du skal svare på følgende spørsmål, i filen `answers_to_questions.md`:
