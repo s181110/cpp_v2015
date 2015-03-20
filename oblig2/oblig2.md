@@ -35,7 +35,7 @@ Du kan skrive all den koden du mener du trenger, men forsøk å være konsis, ut
 **Krav til fyrverkeriet:**
 
   1. Forsøk å få fyrverkeriet til å likne på [dette](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/19.03/12866/Fireworks_CPP_2015_-_20150319_125437_36.html). 
-  2. Følg ellers retningslinjene i oppgavene om fyrverkeri (i [oppgaver.md](./oppgaver)), mtp. farger og bevegelse i dottene. Spesielt, forsøk å få de ulike dottene til å ha litt ulik farge, men med overvekt av en farge. Jeg har valgt orange.
+  2. Følg ellers retningslinjene i oppgavene om fyrverkeri (i [oppgaver.md](../oppgaver.md)), mtp. farger og bevegelse i dottene. Spesielt, forsøk å få de ulike dottene til å ha litt ulik farge, men med overvekt av en farge. Jeg har valgt orange.
   3. Ganske mye er "random" i fyrverkeriet - dermed er det naturligvis mye som vil variere fra kjøring til kjøring.
      * Hver enkelt dotts fart og retning er random, gitt noen begrensninger. Dette styres i `is_vector`.
      * Hvor hver enkelt rakett starter, er random, men godt innenfor skjermen. Dette styres i `rocket`.
