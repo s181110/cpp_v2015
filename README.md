@@ -4,6 +4,11 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **19.03.15: Status oblig1:** For de som ikke fikk godkjent oblig1 på første forsøk; vi jobber med saken! Vi har tre ganger så mange studenter i år ift. i fjor, så dette vil dessverre ta litt lenger tid enn ventet. Har du implementert alt på sjekklisten nedenfor bør alt være i orden, men du får tilbakemelding så snart vi har rukket over alle.
+* **19.03.15: Oblig2 lagt ut**: Oblig2 er nå ute - oppgaveteksten finner du [her](./oblig2/oblig2.md), alt sammen ligger i mappen [oblig2](./oblig2)
+  * Jeg har implementert `fireworks2`, med factories, og gjorde noen [mindre endringer i headerfilene](https://github.com/hioa-cs/cpp_v2015/commit/a1a3bdca3b48a9a8fd875c1720faa909c2d0731c) i den forbindelse. 
+  * En video av hvordan mitt `fireworks2` ser ut ligger i oppgaveteksten - du kan også [se den her](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/19.03/14400/Fireworks2_CPP_2015_-_20150319_145220_36.html)
+  * **OBS:** Dersom du ser feil i obligen, eller dersom noe er uklart - legg inn et issue i [issue-trackeren](https://github.com/hioa-cs/cpp_v2015/issues)! Da ser alle spørsmålet, og jeg kan svare alle på en gang.
 * **19.03.15: Header-filer for oblig2 ute**: Detaljert oppgavetekst er på vei (jobber med saken - mange hensyn å ta), men header-filene til oblig2 er lagt ut, så det er bare å begynne å implementere, iht. beskrivelsen i forelesningsnotatene. Fristen blir 2 uker fra i dag. 
 * **16.03.15: Forelesning som normalt i morgen**: Veldig hyggelig med mange- og gode tilbakemeldinger på videoforelesningen. 
 *Til dere som enda ikke har sett den (over halvparten) - se den, og svar på undersøkelsen. Svarene vil påvirke opplegget fremover.* Det overveldende flertallet syntes innholdet var veldig nyttig, og generelt vil de fleste ha mer av dette. Jeg tar det til etterretning, men kjører vanlig opplegg i morgen - da blir det presentasjon av Oblig2. Hyggelig om vi sees da!

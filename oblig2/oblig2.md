@@ -35,7 +35,7 @@ Du kan skrive all den koden du mener du trenger, men forsøk å være konsis, ut
 **Krav til fyrverkeriet:**
 
   1. Forsøk å få fyrverkeriet til å likne på [dette](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/19.03/12866/Fireworks_CPP_2015_-_20150319_125437_36.html). 
-  2. Følg ellers retningslinjene i oppgavene om fyrverkeri (i [oppgaver.md](./oppgaver)), mtp. farger og bevegelse i dottene. Spesielt, forsøk å få de ulike dottene til å ha litt ulik farge, men med overvekt av en farge. Jeg har valgt orange.
+  2. Følg ellers retningslinjene i oppgavene om fyrverkeri (i [oppgaver.md](../oppgaver.md)), mtp. farger og bevegelse i dottene. Spesielt, forsøk å få de ulike dottene til å ha litt ulik farge, men med overvekt av en farge. Jeg har valgt orange.
   3. Ganske mye er "random" i fyrverkeriet - dermed er det naturligvis mye som vil variere fra kjøring til kjøring.
      * Hver enkelt dotts fart og retning er random, gitt noen begrensninger. Dette styres i `is_vector`.
      * Hvor hver enkelt rakett starter, er random, men godt innenfor skjermen. Dette styres i `rocket`.
@@ -54,10 +54,11 @@ Du skal nå lage en ny versjon av det samme fyrverkeriet, der dottene lages av e
 PS: Når du først har forstått hvordan fabrikkene fungerer er det *veldig lett* å lage flere; det er snakk om en håndfull linjer kode pr. fabrikk - det er bare snakk om å returnere nye typer dotter.
 
 ## 3) Template-parameter for TintedDotFactory
-Endre `TintedDotFactory` til å ta en farge av typen [`FL_color`](http://www.fltk.org/doc-1.3/Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a) som template-parameter, slik at `TintedDotFactory<FL_BLUE>::create_dot()` returnerer dotter som er "stort sett blå", TintedDotFactory<FL_RED> lager "stort sett røde" dotter osv.  Med "stort sett" mener vi at du kan randomisere litt av fargenyansen, men at det alltid skal være overvekt av denne ene fargen.  
+Endre `TintedDotFactory` til å ta en farge av typen [`FL_color`](http://www.fltk.org/doc-1.3/Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a) som template-parameter, slik at `TintedDotFactory<FL_BLUE>::create_dot()` returnerer dotter som er "stort sett blå", `TintedDotFactory<FL_RED>` lager "stort sett røde" dotter osv.  Med "stort sett" mener vi at du kan randomisere litt av fargenyansen, men at det alltid skal være overvekt av denne ene fargen.  
 
 For å generere ulike versjoner av fargene kan du bruke funksjonene `fl_darker` og `fl_lighter`.
 
+Til slutt skal du utvide `fireworks2` til å la noen rockets få fabrikker med ulike "tints". Et eksempel på hvordan det kan se ut helt til slutt kan du se i [denne videoen](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/19.03/14400/Fireworks2_CPP_2015_-_20150319_145220_36.html).
 
 ## 4) Kortsvarsspørsmål
 Du skal svare på følgende spørsmål, i filen `answers_to_questions.md`:
