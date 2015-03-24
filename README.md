@@ -4,6 +4,8 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+
+* **24.03.15: Ingen forelesning i dag.** Mer informasjon kommer på e-post. Alle datoer i [semesterplanen](./Semesterplan_CPP_2015.pdf) gjelder, med mindre annet blir oppgitt. Plan for i dag: **jobb med oblig2!** Andreas vil være tilgjengelig på lab - bruk muligheten!
 * **19.03.15: Status oblig1:** For de som ikke fikk godkjent oblig1 på første forsøk; vi jobber med saken! Vi har tre ganger så mange studenter i år ift. i fjor, så dette vil dessverre ta litt lenger tid enn ventet. Har du implementert alt på sjekklisten nedenfor bør alt være i orden, men du får tilbakemelding så snart vi har rukket over alle.
 * **19.03.15: Oblig2 lagt ut**: Oblig2 er nå ute - oppgaveteksten finner du [her](./oblig2/oblig2.md), alt sammen ligger i mappen [oblig2](./oblig2)
   * Jeg har implementert `fireworks2`, med factories, og gjorde noen [mindre endringer i headerfilene](https://github.com/hioa-cs/cpp_v2015/commit/a1a3bdca3b48a9a8fd875c1720faa909c2d0731c) i den forbindelse. 
