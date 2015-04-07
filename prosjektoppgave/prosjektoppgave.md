@@ -1,4 +1,4 @@
-Prosjektoppgave C++, vår 2014
+Prosjektoppgave C++, vår 2015
 ===================================
 
 ##Oppgavebeskrivelse:
