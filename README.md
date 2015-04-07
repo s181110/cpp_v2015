@@ -4,6 +4,13 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **07.04.15: Fullt fokus på prosjektoppgave!** 
+ * Gå sammen i grupper, på 2-3 personer, evt. alene (med forbehold om at ikke for mange vil jobbe alene)
+ * Opprett et *privat* github / gitlab-repo for prosjektoppgaven, der kun gruppedeltakerne, pluss Alfred, har tilgang.
+ * *alle* deltakere skal levere link til dette repoet på fronter under "Prosjekt-linker" **senest fredag, 10. april**. 
+ * I repoet skal det ligge en fil, `prosjektbeskrivelse.md`, med en kort prosjektbeskrivelse, og hvert gruppemedlems studentnummer.  Eksempel på denne fila, pluss mer detaljert oppgavetekst kommer snart!
+ * **Lab i dag**: Jeg kommer kl. 14:30 (kanskje før), og vil være tilgjengelig for å diskutere prosjekter. Gå i gang så lenge!
+ * **Oblig2**: Har du søkt om utsettelse og ikke fått svar? Jeg skal svare så fort jeg kan - i mellomtiden jobb med obligen, og be om hjelp på lab!
 * **06.04.15: Ingen prøve - men forelesning - i morgen.** Av administrative grunner utsetter vi prøven til neste uke, men sees til forelesning i morgen! Mer info er sendt på e-post. *-Alfred.*
 * **28.03.15: Lab på tirsdag (31/3, påske).** Ville bare bekrefte/minne på at det er lab nå på tirsdag 31.03, og at dette vil være siste muligheten å få hjelp med oblig 2 (frist på torsdag). Sees der! *Andreas*
 * **24.03.15: Ingen forelesning i dag.** Mer informasjon kommer på e-post. Alle datoer i [semesterplanen](./Semesterplan_CPP_2015.pdf) gjelder, med mindre annet blir oppgitt. Plan for i dag: **jobb med oblig2!** Andreas vil være tilgjengelig på lab - bruk muligheten!
