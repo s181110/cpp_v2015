@@ -4,6 +4,31 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **13.04.15: Prøve i morgen, kl. 11:00 og 12:30**. På grunn av romsituasjonen må vi kjøre to runder med prøver i morgen. Første økt kl. 11:00, blir kun for 2 kl. ingeniør, evt. andre som som har kollisjon med et annet kurs i lab-tiden (påmelding til dette via e-post!). Deretter alle andre klokken 12:30. Altså:
+  * **2. klasse ingeniørstudenter, evt. andre som har kolliderende kurs:**  *kl. 11:00, PH424.* 
+    * **OBS: send e-post til meg dersom dette gjelder deg!** Rommet er lite så jeg må vite hvor mange dette gjelder!
+  * **Alle andre:** *kl. 12:30, PH424 og PH422*
+  * Prøven varer i 90 minutter. 
+  * Ingen hjelpemidler tillatt, bortsett fra penn og papir.
+  * Ingen pauser eller toalettbesøk
+  * Man kan bruke egen PC, men vi vil kreve at browservindu med prøven skal være eneste vindu oppe, i hele prøveperioden. Dette er et absolutt krav, av grunner alle forstår.
+  * Dersom noen har dokumentérbare grunner til at de ikke kan være tilstede på noen av disse tidspunktene, gi beskjed på e-post asap. og legg ved dokumentasjon. Det vil da bli alternativt opplegg.
+  * **OBS OBS: Ta med legitimasjon - aller helst studentkort med studentnr.** 
+* **07.04.15: Fullt fokus på prosjektoppgave!** 
+ * Gå sammen i grupper, på 2-3 personer, evt. alene (med forbehold om at ikke for mange vil jobbe alene)
+ * Opprett et *privat* github / gitlab-repo for prosjektoppgaven, der kun gruppedeltakerne, pluss Alfred, har tilgang.
+ * *alle* deltakere skal levere link til dette repoet på fronter under "Prosjekt-linker" **senest fredag, 10. april**. 
+ * I repoet skal det ligge en fil, `prosjektbeskrivelse.md`, med en kort prosjektbeskrivelse, og hvert gruppemedlems studentnummer.  Eksempel på denne fila, pluss mer detaljert oppgavetekst kommer snart!
+ * **Lab i dag**: Jeg kommer kl. 14:30 (kanskje før), og vil være tilgjengelig for å diskutere prosjekter. Gå i gang så lenge!
+ * **Oblig2**: Har du søkt om utsettelse og ikke fått svar? Jeg skal svare så fort jeg kan - i mellomtiden jobb med obligen, og be om hjelp på lab!
+* **06.04.15: Ingen prøve - men forelesning - i morgen.** Av administrative grunner utsetter vi prøven til neste uke, men sees til forelesning i morgen! Mer info er sendt på e-post. *-Alfred.*
+* **28.03.15: Lab på tirsdag (31/3, påske).** Ville bare bekrefte/minne på at det er lab nå på tirsdag 31.03, og at dette vil være siste muligheten å få hjelp med oblig 2 (frist på torsdag). Sees der! *Andreas*
+* **24.03.15: Ingen forelesning i dag.** Mer informasjon kommer på e-post. Alle datoer i [semesterplanen](./Semesterplan_CPP_2015.pdf) gjelder, med mindre annet blir oppgitt. Plan for i dag: **jobb med oblig2!** Andreas vil være tilgjengelig på lab - bruk muligheten!
+* **19.03.15: Status oblig1:** For de som ikke fikk godkjent oblig1 på første forsøk; vi jobber med saken! Vi har tre ganger så mange studenter i år ift. i fjor, så dette vil dessverre ta litt lenger tid enn ventet. Har du implementert alt på sjekklisten nedenfor bør alt være i orden, men du får tilbakemelding så snart vi har rukket over alle.
+* **19.03.15: Oblig2 lagt ut**: Oblig2 er nå ute - oppgaveteksten finner du [her](./oblig2/oblig2.md), alt sammen ligger i mappen [oblig2](./oblig2)
+  * Jeg har implementert `fireworks2`, med factories, og gjorde noen [mindre endringer i headerfilene](https://github.com/hioa-cs/cpp_v2015/commit/a1a3bdca3b48a9a8fd875c1720faa909c2d0731c) i den forbindelse. 
+  * En video av hvordan mitt `fireworks2` ser ut ligger i oppgaveteksten - du kan også [se den her](https://screencast.uninett.no/relay/ansatt/alfrebhioa.no/2015/19.03/14400/Fireworks2_CPP_2015_-_20150319_145220_36.html)
+  * **OBS:** Dersom du ser feil i obligen, eller dersom noe er uklart - legg inn et issue i [issue-trackeren](https://github.com/hioa-cs/cpp_v2015/issues)! Da ser alle spørsmålet, og jeg kan svare alle på en gang.
 * **19.03.15: Header-filer for oblig2 ute**: Detaljert oppgavetekst er på vei (jobber med saken - mange hensyn å ta), men header-filene til oblig2 er lagt ut, så det er bare å begynne å implementere, iht. beskrivelsen i forelesningsnotatene. Fristen blir 2 uker fra i dag. 
 * **16.03.15: Forelesning som normalt i morgen**: Veldig hyggelig med mange- og gode tilbakemeldinger på videoforelesningen. 
 *Til dere som enda ikke har sett den (over halvparten) - se den, og svar på undersøkelsen. Svarene vil påvirke opplegget fremover.* Det overveldende flertallet syntes innholdet var veldig nyttig, og generelt vil de fleste ha mer av dette. Jeg tar det til etterretning, men kjører vanlig opplegg i morgen - da blir det presentasjon av Oblig2. Hyggelig om vi sees da!
