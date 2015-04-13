@@ -4,6 +4,15 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **13.04.15: Prøve i morgen, kl. 11:00 og 12:30**. På grunn av romsituasjonen må vi kjøre to runder med prøver i morgen. Første økt kl. 11:00, blir kun for 2 kl. ingeniør, evt. andre som som har kollisjon med et annet kurs i lab-tiden (påmelding til dette via e-post!). Deretter alle andre klokken 12:30. Altså:
+  * **2. klasse ingeniørstudenter, evt. andre som har kolliderende kurs:**  *kl. 11:00, PH424.* 
+    * **OBS: send e-post til meg dersom dette gjelder deg!** Rommet er lite så jeg må vite hvor mange dette gjelder!
+  * **Alle andre:** *kl. 12:30, PH424 og PH422*
+  * Prøven varer i 90 minutter. 
+  * Ingen hjelpemidler tillatt, bortsett fra penn og papir.
+  * Ingen pauser eller toalettbesøk
+  * Man kan bruke egen PC, men vi vil kreve at browservindu med prøven skal være eneste vindu oppe, i hele prøveperioden. Dette er et absolutt krav, av grunner alle forstår.
+  * Dersom noen har dokumentérbare grunner til at de ikke kan være tilstede på noen av disse tidspunktene, gi beskjed på e-post asap. og legg ved dokumentasjon. Det vil da bli alternativt opplegg.
 * **07.04.15: Fullt fokus på prosjektoppgave!** 
  * Gå sammen i grupper, på 2-3 personer, evt. alene (med forbehold om at ikke for mange vil jobbe alene)
  * Opprett et *privat* github / gitlab-repo for prosjektoppgaven, der kun gruppedeltakerne, pluss Alfred, har tilgang.
