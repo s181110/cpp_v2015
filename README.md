@@ -13,6 +13,7 @@
   * Ingen pauser eller toalettbesøk
   * Man kan bruke egen PC, men vi vil kreve at browservindu med prøven skal være eneste vindu oppe, i hele prøveperioden. Dette er et absolutt krav, av grunner alle forstår.
   * Dersom noen har dokumentérbare grunner til at de ikke kan være tilstede på noen av disse tidspunktene, gi beskjed på e-post asap. og legg ved dokumentasjon. Det vil da bli alternativt opplegg.
+  * **OBS OBS: Ta med legitimasjon - aller helst studentkort med studentnr.** 
 * **07.04.15: Fullt fokus på prosjektoppgave!** 
  * Gå sammen i grupper, på 2-3 personer, evt. alene (med forbehold om at ikke for mange vil jobbe alene)
  * Opprett et *privat* github / gitlab-repo for prosjektoppgaven, der kun gruppedeltakerne, pluss Alfred, har tilgang.
