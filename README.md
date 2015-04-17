@@ -4,6 +4,7 @@
 * **Stud.ass:** Andreas Åkesson - s188900 æt stud.hioa.no
 
 ## NYHETER
+* **17.04.15: Gi Andreas tilgang til oblig-repo**. For å få fortgang i tilbakemeldinger på obliger (nå er jeg flaskehalsen), må alle gi Andreas lese- og skrivetilgang til sine oblig-repo. Andreas' brukernavn er AndreasAakesson på github og gitlab.
 * **17.04.15: Prøve - siste sjanse i dag**. Minner om siste mulighet til å ta prøve, **i dag, fredag kl. 14:30, i PH422.**
 * **14.04.15: Prøve - oppsamlingsheat**. Da vi dessverre måtte avlyse første prøve i dag, kjører vi ny prøve for dere, **fredag kl. 14:30**. Alle som har hatt gyldig grunn til å ikke ta prøven før, må melde seg på til dette nye tidspunktet - ***send meg e-post asap***. så jeg kan sette av et rom som er stort nok.
 * **13.04.15: Prøve i morgen, kl. 11:00 og 12:30**. På grunn av romsituasjonen må vi kjøre to runder med prøver i morgen. Første økt kl. 11:00, blir kun for 2 kl. ingeniør, evt. andre som som har kollisjon med et annet kurs i lab-tiden (påmelding til dette via e-post!). Deretter alle andre klokken 12:30. Altså:
