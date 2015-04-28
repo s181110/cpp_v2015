@@ -18,7 +18,7 @@ Prosjektoppgave C++, vår 2015
 
 - Mangler du idéer? Sjekk [ideer.md](ideer.md).
 
-- **Innleveringsfrist (hard):  03.mai 2014 kl.23:59**, da klones alle repoer.
+- **Innleveringsfrist (hard):  03.mai 2015 kl.23:59**, da klones alle repoer.
 
 - Som alltid: koden skal ikke deles med noen utenfor gruppen. All publisering og distribusjon av kode blir behandlet som bidrag til juks.
 
